@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background: url('../imagens/red-dead-redamption-fundo.jpg') no-repeat top center;
+    background-size: cover;
+}
+main{
+    position: relative;
+    height: 100vh;
+    ;
+}
+section#caixa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: linear-gradient(gray, lightgray, black);
+}
+section#apps{
+
+}
