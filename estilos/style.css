@@ -39,5 +39,16 @@ iframe#fundo{
     border-radius: 10px;
 }
 section#apps{
-
+    text-align: right;
+}
+section#apps img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+    box-sizing: border-box;
+}
+section#apps img:hover{
+    border: 1px solid rgba(128, 128, 128, 0.628);
+    
 }
