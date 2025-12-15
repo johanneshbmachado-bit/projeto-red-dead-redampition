@@ -54,7 +54,7 @@ section#apps img:hover{
     
 }
 /*Configurações para Celular*/
-@media (max-width: 767px) and (max-height:420px){
+@media (max-width: 767px){
 
     main{
         display: block;
