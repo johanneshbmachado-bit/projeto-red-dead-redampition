@@ -39,9 +39,10 @@ iframe#fundo{
     border-radius: 10px;
 }
 section#apps{
-    text-align: right;
+    text-align: center;
 }
 section#apps img{
+    display: inline-block;
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -51,4 +52,64 @@ section#apps img{
 section#apps img:hover{
     border: 1px solid rgba(128, 128, 128, 0.628);
     
+}
+/*Configurações para Celular*/
+@media (max-width: 767px){
+
+    main{
+        display: block;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    section#caixa{
+        position: static;
+        transform: none;
+        margin: 0 auto 20px auto;
+        width: 90vw;
+        height: 70vh;
+    }
+
+    iframe#fundo{
+        width: 100%;
+        height: 100%;
+    }
+
+    section#apps{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section#apps img{
+        width: 45px;
+        margin: 12px;
+    }
+}
+/*Configurações para telas de Celular bem pequenas*/
+
+@media (max-width:480px) {
+    section#apps img{
+        width: 42px;
+        margin: 10px;
+    }
+    section#apps{
+        text-align: center;
+    }
+}
+
+/*Configurações para Tabletes e Ipads*/
+
+@media (min-width:768px) and (max-width:1024px){
+    section#caixa{
+        width: 70vw;
+        height: 75vh;
+    }
+    iframe#fundo{
+        width: 100%;
+        height: 100%;
+    }
+    section#apps img{
+        width: 60px;
+        margin: 15px;
+    }
 }
