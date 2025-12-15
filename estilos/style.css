@@ -54,7 +54,7 @@ section#apps img:hover{
     
 }
 /*Configurações para Celular*/
-@media (max-width: 767px){
+@media (max-width: 767px) and (max-height:420px){
 
     main{
         display: block;
@@ -67,7 +67,7 @@ section#apps img:hover{
         transform: none;
         margin: 0 auto 20px auto;
         width: 90vw;
-        height: 70vh;
+        height: 50vh;
     }
 
     iframe#fundo{
